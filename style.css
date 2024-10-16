@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+.main-container {
+    width: 85vw;
+    height: 100vh;
+    margin: 0 auto;
+    border-radius: 5vw;
+
+    background-color: #C8102E;
+}
