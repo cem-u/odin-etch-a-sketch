@@ -2,11 +2,32 @@ body {
     margin: 0;
 }
 
+
+.toolbar {
+    width: min(100vw, 90vh);
+    height: 8vh;
+    margin: 1vh auto;
+    border-radius: 2vh;
+
+    background-color: #ADD8E6;
+}
+
 .main-container {
-    width: min(100vw, 100vh);
-    height: min(100vw, 100vh);
+    width: min(100vw, 90vh);
+    height: min(100vw, 90vh);
     margin: 0 auto;
-    border-radius: 5vw;
+    border-radius: min(5vw, 4.5vh);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     background-color: #C8102E;
+}
+
+.main-container-grid {
+    width: 90%;
+    height: 90%;
+
+    background-color: grey;
 }
