@@ -3,8 +3,8 @@ body {
 }
 
 .main-container {
-    width: 85vw;
-    height: 100vh;
+    width: min(100vw, 100vh);
+    height: min(100vw, 100vh);
     margin: 0 auto;
     border-radius: 5vw;
 
