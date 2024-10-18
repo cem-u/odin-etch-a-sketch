@@ -41,5 +41,15 @@ body {
 .grid {
     width: 90%;
     height: 90%;
-    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D3D3D3;
+}
+
+/** 
+ * The box element will be added in post through javascript.
+ */
+.box {
+    border: 1px solid black;
+    flex: 1 calc(100% / var(--grid-dimension));
 }
