@@ -11,22 +11,16 @@ body {
     min-width: 483px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .toolbar {
-    width: min(100vw, 90vh);
     height: 8vh;
-    min-width: 483px;
     min-height: 70px;
     margin: 1vh auto;
     border-radius: 2vh;
     gap: 10px;
     background-color: #ADD8E6;
-}
-
-.reset {
-    font-size: 25px;
-    margin-left: 10px;
 }
 
 .dimension-container {
@@ -37,13 +31,10 @@ body {
 }
 
 .grid-container {
-    width: min(100vw, 90vh);
     height: min(100vw, 90vh);
-    min-width: 483px;
     min-height: 483px;
     margin: 0 auto;
     border-radius: min(5vw, 4.5vh);
-    justify-content: center;
     background-color: #C8102E;
 }
 
