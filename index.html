@@ -7,9 +7,19 @@
         <script src="./script.js" defer></script>
     </head>
     <body>
-        <div class="toolbar"></div>
-        <div class="main-container">
-            <div class="main-container-grid"></div>
+        <div class="toolbar">
+            <button class="reset">Reset</button>
+            <div class="dimension-container">
+                <input class="dimension-input" 
+                       type="number" 
+                       name="dimension" 
+                       min="1" 
+                       max="100">
+                <button class="dimension-enter">Enter</button>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="grid"></div>
         </div>
     </body>
 </html>
